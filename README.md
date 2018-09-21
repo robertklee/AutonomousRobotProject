@@ -4,9 +4,9 @@ This code was designed and written by Robert Lee for use in the ENGR 120 Spring 
 
 Robert Lee, Calder Staude, Kyle Jarvis, Kyra Teetzen
 
-University of Victoria
+*University of Victoria*
 
-January-April 2017
+*January-April 2017*
 
 ## Client Background
 **This was a hypothetical project for a real-life UVic initiative**
@@ -20,12 +20,13 @@ Currently, ONC lacks a safe method to connect and run cables between nodes for i
 In teams of four, we developed dryland prototype robots to meet the client's need. We were all significantly involved in the mechanical, electrical, or software aspects of the project. 
 
 ### Algorithm Overview
+Please see the ![Finite State Machine Diagram]("Milestone4 FSM diagram.pdf") for a detailed description of FSM.
 The robot began its cycle in Target Acquisition State, where the robot rotated 360° and determined the direction of the strongest IR signal. During Approach State, it drove towards the beacon while performing slight trajectory adjustments by triangulating using the difference between its two front IR sensors. Periodically, it paused and entered Signal Revalidation State, pivoting 45° to each side and measuring signals from a 90° field of view to identify obstacles and recalculate the most efficient route. Once the robot was positioned for cable attachment, limit switches triggered and its magnetic connection mechanism lowered.
 
-#### Movement Mechanism
+### Movement Mechanism
 The robot used a skid-steer four-wheel drive mechanism. Two motors independently controlled each pair of wheels, enabling precise adjustments to either motor’s power to correct for route deviations. Its zero turning radius allowed it to carry the cable while maneuvering around obstacles. 
 
-#### Sensors and Controls
+### Sensors and Controls
 The robot utilized the following sensors to locate and approach the target:
 * two limit switches: these ensured Marlin took corrective measures upon collision with obstacles
 * an ultrasonic range finder (URF): this enabled Marlin to sense and avoid obstacles and control its approach to the beacon
@@ -33,7 +34,7 @@ The robot utilized the following sensors to locate and approach the target:
 
 An integrated Vex computer combined input from these sensors to ensure that Marlin’s approach was direct, efficient, and reliable. 
 
-#### Material and Structure
+### Material and Structure
 The prototype featured a square frame and a small footprint, improving maneuverability in confined areas. It expends only a set of magnets per cycle.
 
 ## Final Design

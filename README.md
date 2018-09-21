@@ -20,7 +20,7 @@ Currently, ONC lacks a safe method to connect and run cables between nodes for i
 In teams of four, we developed dryland prototype robots to meet the client's need. We were all significantly involved in the mechanical, electrical, or software aspects of the project. 
 
 ### Algorithm Overview
-Please see the ![Finite State Machine Diagram]("Milestone4 FSM diagram.pdf") for a detailed description of FSM.
+Please see the ![Finite State Machine Diagram](Milestone4FSMDiagram.pdf) for a detailed description of FSM.
 The robot began its cycle in Target Acquisition State, where the robot rotated 360° and determined the direction of the strongest IR signal. During Approach State, it drove towards the beacon while performing slight trajectory adjustments by triangulating using the difference between its two front IR sensors. Periodically, it paused and entered Signal Revalidation State, pivoting 45° to each side and measuring signals from a 90° field of view to identify obstacles and recalculate the most efficient route. Once the robot was positioned for cable attachment, limit switches triggered and its magnetic connection mechanism lowered.
 
 ### Movement Mechanism

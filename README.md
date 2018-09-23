@@ -17,7 +17,7 @@ Established in 2007, Ocean Networks Canada (ONC) is a UVic research initiative t
 Currently, ONC lacks a safe method to connect and run cables between nodes for its VENUS and NEPTUNE ocean observatories. A preliminary goal is to design a proof-of-concept dry-land prototype. This prototype should run the cable from a source to a target. To lessen damage to the environment, it should minimize wheel drag, and sense and avoid obstacles in its path. It should quickly locate a beacon in a confined area and approach it via a direct route. Each cycle must cost under $20, and the prototype must be fully autonomous. In addition, tests must be completed by March 21, 2017. The entire robot must cost under $800 and abide by CSA regulations. 
 
 ## Design
-In teams of four, we developed dryland prototype robots to meet the client's need. We were all significantly involved in the mechanical, electrical, or software aspects of the project. 
+In teams of four, we developed dryland prototype robots to meet the client's need. We were all significantly involved in the mechanical, electrical, or software aspects of the project. Images and videos of the three iterations of the robot can be found [here](https://drive.google.com/open?id=1sRdUgH5TaSOmyGcBwCTqtU_7reU8YoMz)
 
 ### Algorithm Overview
 Please see the ![Finite State Machine Diagram](Milestone4FSMDiagram.pdf) for a detailed description of FSM.
@@ -67,6 +67,6 @@ Using ONC’s Request for Proposal, along with our own research into ONC, we hav
 5.	**Detection of edge of arena**: The ideal solution should either sense or predict a collision and immediately perform corrective measures.
 
 ## Final Results
-During the lab tests, the robot consistently and accurately passed all tests. All tests, even the long range test, were completed with minimal time loss due to an inefficient route. The average time was approximately 15-20 seconds to complete the task.
+During the lab tests, the robot consistently and accurately passed all tests. All tests, even the long range test, were completed with minimal time loss due to an inefficient route. The average time was approximately 15-20 seconds to complete the task. Videos of the [long distance](https://drive.google.com/open?id=1u-T1AFtTTSTfkETuh5tmM7d_orTrddUi) and [short distance](https://drive.google.com/open?id=1IxowxC5pphccziX_BOMXqFunh8ag2bsY) are linked.
 
-The final design with 8 phototransistors reduced this time to an average of 3-5 seconds. 
+The final design with 8 phototransistors reduced this time to an average of 3-5 seconds. Videos of the [long distance](https://drive.google.com/open?id=1hWdBOddlqxfcMWT_zxgOhlwHpTLDzumf) and [short distance](https://drive.google.com/open?id=1sWcE2AB5XtmAVgTlnoX4oQFiCnO1QwT0) are linked.
